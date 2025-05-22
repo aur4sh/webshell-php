@@ -64,7 +64,7 @@ if ($action) {
         // Caminho completo do arquivo ou pasta
         $arquivo_completo = $path . $arquivo;
 
-        // Pega a extensão do arquivo em letras minúsculas
+        // Pega a extensão do arquivo
         $extensao = strtolower(pathinfo($arquivo_completo, PATHINFO_EXTENSION));
 
         // Se for um arquivo de texto ou código, cria link para visualização
